@@ -1,12 +1,11 @@
 #include "shell.h"
 
-
 /**
- * _getenv - gets the value of an environ variable
- * @info: Structure containing potential arguments. Used to maintain
- * @name: env var name
+ * _getenv - Gets of an environment variable.
+ * @info: Structure containing potential arguments.
+ * @name: Name of the environment variable.
  *
- * Return: the value
+ * Return: The value of the environment variable.
  */
 char *_getenv(info_t *info, const char *name)
 {
@@ -22,13 +21,11 @@ char *_getenv(info_t *info, const char *name)
 	}
 	return (NULL);
 }
-
 /**
- * _mysetenv - Initialize a new environment variable,
- *             or modify an existing one
- * @info: Structure containing potential arguments. Used to maintain
- *        constant function prototype.
- *  Return: Always 0
+ * my_setenv - Initializes a new environment variable or modifies an existing one.
+ * @info: Structure containing potential arguments.
+ *
+ * Return: Always returns 0.
  */
 int my_setenv(info_t *info)
 {
@@ -43,10 +40,10 @@ int my_setenv(info_t *info)
 }
 
 /**
- * _myunsetenv - Remove an environment variable
- * @info: Structure containing potential arguments. Used to maintain
- *        constant function prototype.
- *  Return: Always 0
+ * my_unsetenv - Removes an environment variable.
+ * @info: Structure containing potential arguments.
+ *
+ * Return: Always returns 0.
  */
 int my_unsetenv(info_t *info)
 {
@@ -62,12 +59,11 @@ int my_unsetenv(info_t *info)
 
 	return (0);
 }
-
 /**
- * populate_env_list - populates env linked list
- * @info: Structure containing potential arguments. Used to maintain
- *          constant function prototype.
- * Return: Always 0
+ * new_env_list - Populates the environment linked list.
+ * @info: Structure containing potential arguments.
+ *
+ * Return: Always returns 0.
  */
 int new_env_list(info_t *info)
 {
