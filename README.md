@@ -62,5 +62,5 @@ write (man 2 write)
 
 **(                               DONE BY                                   )**
 
-full name :  abdellatif fitah gamil : abdellatiffitah@gmail.com   github : 
-full name :  gmail :  gitgub :
+full name :  abdellatif fitah gamil : abdellatiffitah@gmail.com   github : https://github.com/supernoova/
+full name :  gmail :  gitgub : 
