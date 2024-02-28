@@ -11,7 +11,7 @@ int my_exit(info_t *info)
 {
 	int exit_check;
 
-	if (info->argv[1])  /* If there is an exit arguement */
+	if (info->argv[1])
 	{
 		exit_check = err_atoi(info->argv[1]);
 		if (exit_check == -1)
