@@ -24,7 +24,7 @@ for this project we used these concepts:
 All about Team Projects + Pairings + FAQ (A must read)
 Struggling with the sandbox? Try this: Using Docker & WSL on your local host
 Everything you need to know to start coding your own shell
-Approaching 
+Approaching
 
 **functions and system calls**
 
@@ -62,5 +62,5 @@ write (man 2 write)
 
 **(                               DONE BY                                   )**
 
-full name :  abdellatif fitah gamil : abdellatiffitah@gmail.com   github : https://github.com/supernoova/
-full name :  gmail :  gitgub : 
+full name : abdellatif fitah / email : abdellatiffitah@gmail.com / github : https://github.com/supernoova/
+full name : Mohamed Amine Thami / email : med.work96@hotmail.com / github : https://github.com/vergilx6x

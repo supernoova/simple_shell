@@ -38,6 +38,13 @@ int main(int argc, char **argv)
 	return (EXIT_SUCCESS);
 }
 
+/**
+ * shell - shell loop
+ * @info: the parameter & return info struct
+ * @argv: the argument vector from main()
+ *
+ * Return: 0 on success, 1 on error, or error code
+ */
 int shell(info_t *info, char **argv)
 {
 	ssize_t read_bytes = 0;
@@ -74,7 +81,7 @@ int shell(info_t *info, char **argv)
 }
 
 /**
- * interactive - check if shell in interactive
+ * if_interactive - check if shell in interactive
  * @info: struct address
  *
  * Return: 1 if interactive mode, 0 otherwise

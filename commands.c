@@ -16,6 +16,8 @@ int find_builtin(info_t *info)
 		{"exit", my_exit},
 		{"env", my_env},
 		{"cd", my_cd},
+		{"setenv", my_setenv},
+		{"unsetenv", my_unsetenv},
 		{NULL, NULL}
 	};
 
