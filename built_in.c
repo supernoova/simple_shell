@@ -91,6 +91,13 @@ int my_env(info_t *info)
 	return (0);
 }
 
+/**
+ * my_setenv - Initialize a new environment variable,
+ *             or modify an existing one
+ * @info: Structure containing potential arguments. Used to maintain
+ *        constant function prototype.
+ *  Return: Always 0
+ */
 int my_setenv(info_t *info)
 {
 	if (info->argc != 3)
@@ -104,7 +111,7 @@ int my_setenv(info_t *info)
 }
 
 /**
- * _myunsetenv - Remove an environment variable
+ * my_unsetenv - Remove an environment variable
  * @info: Structure containing potential arguments. Used to maintain
  *        constant function prototype.
  *  Return: Always 0
