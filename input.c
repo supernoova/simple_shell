@@ -1,10 +1,10 @@
 #include "shell.h"
 
 /**
- * input_buf - buffer filling
- * @info: parameter struct
- * @buf: address of buffer
- * @len: address of len var
+ * input_buf - buffer fililing
+ * @info: parameter structm
+ * @buf: address of buffer,
+ * @len: address of len var.
  *
  * Return: bytes read
  */
@@ -31,8 +31,8 @@ ssize_t input_buf(info_t *info, char **buf, size_t *len)
 }
 
 /**
- * get_input - gets a line minus the newline
- * @info: parameter struct
+ * get_input - gets a line m,inus the newline
+ * @info: parameter struct.
  *
  * Return: bytes read
  */
@@ -59,8 +59,8 @@ ssize_t get_input(info_t *info)
 }
 
 /**
- * read_buf - read buffer
- * @info: parameter struct
+ * read_buf - read buffer.
+ * @info: parameter. struct
  * @buf: buffer
  * @i: size
  *
@@ -79,10 +79,10 @@ ssize_t read_buf(info_t *info, char *buf, size_t *i)
 }
 
 /**
- * _getline - gets the next line of input from STDIN
- * @info: parameter struct
- * @ptr: address of pointer to buffer, preallocated or NULL
- * @length: size of preallocated ptr buffer if not NULL
+ * _getline - gets the nex.t line of input from STDIN
+ * @info: parameter struct.
+ * @ptr: address of pointer. to buffer, preallocated or NULL
+ * @length: size of prealloc.ated ptr buffer if not NULL
  *
  * Return: s
  */

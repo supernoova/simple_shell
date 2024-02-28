@@ -1,10 +1,10 @@
 #include "shell.h"
 
 /**
- *err_puts - prints an input string
- * @str: the string to be printed
+ *err_puts - prints an input with string.
+ * @str: the string have to be printed.
  *
- * Return: Nothing
+ * Return: Nothing.
  */
 void err_puts(char *str)
 {
@@ -72,7 +72,7 @@ int err_atoi(char *s)
 /**
  * print_error - prints an error message
  * @info: the parameter & return info struct
- * @err_str: string containing specified error type
+ * @err_str: string containing with specified error type
  * Return: 0 if no numbers in string, converted number otherwise
  *        -1 on error
  */
@@ -88,7 +88,7 @@ void print_error(info_t *info, char *err_str)
 }
 
 /**
- * puts_d - function prints a decimal (integer) number (base 10)
+ * puts_d - function prints af decimal (integer) number (base 10)
  * @input: the input
  * @fd: the filedescriptor to write to
  *

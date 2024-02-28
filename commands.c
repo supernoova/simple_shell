@@ -1,13 +1,13 @@
 #include "shell.h"
 
 /**
- * find_builtin - searches and executes built-in commands
- * @info: shell state
+ * find_builtin - searches with executes built-in commands
+ * @info: shell state.
  *
  * Iterates through built-ins and executes the matching one.
  * Increases line count on match.
  *
- * Return: return value of built-in function or -1 if not found.
+ * Return: return value built-in function or -1 if not found.
  */
 int find_builtin(info_t *info)
 {
@@ -32,8 +32,8 @@ int find_builtin(info_t *info)
 }
 
 /**
- * find_cmd - finds a command in PATH
- * @info: the parameter & return info struct
+ * find_cmd - finds command in PATH.
+ * @info: the parameter return info struct
  *
  * Return: void
  */
@@ -74,8 +74,8 @@ void find_cmd(info_t *info)
 }
 
 /**
- * fork_cmd - forks a an exec thread to run cmd
- * @info: the parameter & return info struct
+ * fork_cmd - forks a an exec, thread to run cmd
+ * @info: the parameter return info struct
  *
  * Return: void
  */
@@ -114,7 +114,7 @@ void fork_cmd(info_t *info)
 }
 
 /**
- * is_cmd - determines if a file is an executable command
+ * is_cmd - determines if a files an executable command
  * @info: the info struct
  * @path: path to the file
  *
@@ -136,12 +136,12 @@ int is_cmd(info_t *info, char *path)
 }
 
 /**
- * find_path - finds this cmd in the PATH string
+ * find_path - finds this cmd the PATH string
  * @info: the info struct
  * @pathstr: the PATH string
  * @cmd: the cmd to find
  *
- * Return: full path of cmd if found or NULL
+ * Return: full path ofc cmd if found or NULL
  */
 char *find_path(info_t *info, char *pathstr, char *cmd)
 {
