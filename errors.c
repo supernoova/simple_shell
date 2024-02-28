@@ -1,7 +1,7 @@
 #include "shell.h"
 
 /**
- *_eputs - prints an input string
+ *err_puts - prints an input string
  * @str: the string to be printed
  *
  * Return: Nothing
@@ -20,7 +20,7 @@ void err_puts(char *str)
 }
 
 /**
- * _eputchar - writes the character c to stderr
+ * err_putchar - writes the character c to stderr
  * @c: The character to print
  *
  * Return: On success 1.
@@ -42,7 +42,7 @@ int err_putchar(char c)
 }
 
 /**
- * _erratoi - converts a string to an integer
+ * err_atoi - converts a string to an integer
  * @s: the string to be converted
  * Return: 0 if no numbers in string, converted number otherwise
  *       -1 on error
@@ -72,7 +72,7 @@ int err_atoi(char *s)
 /**
  * print_error - prints an error message
  * @info: the parameter & return info struct
- * @estr: string containing specified error type
+ * @err_str: string containing specified error type
  * Return: 0 if no numbers in string, converted number otherwise
  *        -1 on error
  */
@@ -88,7 +88,7 @@ void print_error(info_t *info, char *err_str)
 }
 
 /**
- * print_d - function prints a decimal (integer) number (base 10)
+ * puts_d - function prints a decimal (integer) number (base 10)
  * @input: the input
  * @fd: the filedescriptor to write to
  *
@@ -101,7 +101,7 @@ int puts_d(int input, int fd)
 	unsigned int _abs_, current;
 
 	if (fd == STDERR_FILENO)
-		__putchar =err_putchar;
+		__putchar = err_putchar;
 	if (input < 0)
 	{
 		_abs_ = -input;
