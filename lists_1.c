@@ -79,12 +79,15 @@ size_t print_list(const list_t *h)
 }
 
 /**
- * add_node_end - adds a node to the end of the list
- * @head: address of pointer to head node
- * @str: str field of node
- * @num: node index used by history
+ * add_node_at_end - Adds a new node at list's end
+ * @head: Pointer to list's head
+ * @str: String to duplicate
+ * @num: Number for new node
  *
- * Return: size of list
+ * Allocates and initializes a new node. If @head is NULL,
+ * the new node becomes the head. Adds node at the list's end.
+ *
+ * Return: Address of new element, or NULL on failure.
  */
 list_t *add_node_at_end(list_t **head, const char *str, int num)
 {
