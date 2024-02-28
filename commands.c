@@ -1,5 +1,14 @@
 #include "shell.h"
 
+/**
+ * find_builtin - searches and executes built-in commands
+ * @info: shell state
+ *
+ * Iterates through built-ins and executes the matching one.
+ * Increases line count on match.
+ *
+ * Return: return value of built-in function or -1 if not found.
+ */
 int find_builtin(info_t *info)
 {
 	int i, built_in_flag = -1;
