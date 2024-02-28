@@ -55,7 +55,7 @@ void ffree(char **pp)
  * @old_size: byte size of previous block
  * @new_size: byte size of new block
  *
- * Return: pointer to da ol'block nameen.
+ * Return: pointer to the new allocated block.
  */
 void *_realloc(void *ptr, unsigned int old_size, unsigned int new_size)
 {
