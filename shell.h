@@ -123,10 +123,10 @@ void _puts(char *);
 int _putchar(char);
 
 /* memory.c */
+int bfree(void **);
 char *_memset(char *, char, unsigned int);
 void ffree(char **);
 void *_realloc(void *, unsigned int, unsigned int);
-int bfree(void **);
 void free_list(list_t **);
 
 /* tools.c */
